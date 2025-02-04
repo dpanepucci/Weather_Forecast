@@ -23,7 +23,7 @@ class HistoryService {
   }
 
   // Define a write method that writes the updated cities array to the searchHistory.json file
-  private async write(cities: City []): Promise<void> {
+  private async write(cities: City []): Promise<any> {
     return await fs.writeFile(this.searchHistoryFilePath, JSON.stringify(cities, null, 2), 'utf-8');
   }
   // Define a getCities method that reads the cities from the searchHistory.json file and returns them as an array of City objects
@@ -39,7 +39,7 @@ class HistoryService {
     }
 
 // Define an addCity method that adds a city to the searchHistory.json file
-async addCity(city: string): Promise<void> {
+async addCity(city: string): Promise<any> {
   try {
     const data = await fs.readFile(this.searchHistoryFilePath, 'utf8');
     const searchHistory = JSON.parse(data);
@@ -53,6 +53,10 @@ async addCity(city: string): Promise<void> {
     console.error('Error adding city to search history:', error);
   }
 }
+
+
+
+
   // BONUS- work on later
   // Define a removeCity method that removes a city from the searchHistory.json file
   async removeCity(id: string) {

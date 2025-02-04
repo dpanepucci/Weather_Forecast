@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "ddd88530-1b26-40f5-af11-d7e1ca607826",
+    "name": "Columbus"
+  },
+  {
+    "id": "e108a7b4-4ae3-4b45-bbd2-c71762e825e1",
+    "name": "New York"
+  },
+  {
+    "id": "0ac7c905-0831-43b7-a3b0-4e4ab5b4f8c2",
+    "name": "Tucson"
+  },
+  {
+    "id": "58b1aa85-91ad-436b-a06c-3d8aa0fa8a3b",
+    "name": "San Diego"
+  }
+]
