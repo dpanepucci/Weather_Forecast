@@ -4,7 +4,7 @@
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
 ## Link to application
-** ENTER LINK HERE AFTER DEPLOYMENT **
+** [WEATHER_FORECAST](https://weather-forecast-qc4g.onrender.com) **
 
 ## Table of Contents
 - [Description](#description)
@@ -28,7 +28,7 @@ Otherwise, application can be used at the following link provided in the README
 
 ## Usage
 How to use the application
-1. Click link provided - LINK TO DEPLOYED APPLICATION
+1. Click link provided - [CLICK HERE](https://weather-forecast-qc4g.onrender.com)
 2. Type a name of a city and hit enter.
 3. On the right side of the application, a 5 day weather forecast will populate.
 
